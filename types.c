@@ -6,7 +6,7 @@
 /*   By: mhumfrey <mhumfrey@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/09 14:56:10 by mhumfrey          #+#    #+#             */
-/*   Updated: 2020/12/11 19:50:29 by mhumfrey         ###   ########.fr       */
+/*   Updated: 2020/12/11 20:40:29 by mhumfrey         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ int	types(int c)
 
 	i = 0;
 	types = "diucsxXp%";
-	while(types[i] !='\0')
+	while (types[i] != '\0')
 	{
-		if(c == (int)types[i])
+		if (c == (int)types[i])
 			return (1);
 		i++;
 	}

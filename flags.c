@@ -6,7 +6,7 @@
 /*   By: mhumfrey <mhumfrey@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/09 14:55:23 by mhumfrey          #+#    #+#             */
-/*   Updated: 2020/12/11 19:44:34 by mhumfrey         ###   ########.fr       */
+/*   Updated: 2020/12/11 20:40:31 by mhumfrey         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ int	flags(int c)
 
 	i = 0;
 	flags = "-0 .*";
-	while(flags[i] !='\0')
+	while (flags[i] != '\0')
 	{
-		if(c == (int)flags[i])
+		if (c == (int)flags[i])
 			return (1);
 		i++;
 	}
